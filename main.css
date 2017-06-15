@@ -1,0 +1,95 @@
+#pitch {
+
+	background-image: url('images/Style.jpg');
+	padding:140px 0px;
+	background-size: cover;
+}
+.container .jumbotron
+.container-fluid .jumbtron{
+						border-radius: 10px;
+					.profile {
+
+						float: left;
+					   margin: 100px;
+					   padding: 100px;
+					   max-width: 300px;
+					   height: 300px;
+					}
+
+					}
+#span {
+	background-color:"red";
+}
+#pitch h1 {
+		font-size: 60;
+		color:#fffccc;
+	}
+header{
+	display: block;
+}
+
+#footer{
+	background-color:red;
+	font-style: Alex Brush;
+	font-color: black;
+	font-size: 30px;
+	text-align: center;
+}
+#topMenu{
+	background-color: purple;
+	font-family: Magnus Cederholm; 
+	font-weight: 100%;
+	font-size: 20;
+}
+
+#button, #activity{
+		padding: 5px;
+		text-align:center;
+		background-color: #e5eecc;
+		border: solid 1px #c3c3c3;
+}
+#activity {
+		padding: 50px
+		display:none;
+}
+#panel1, #flip{
+	padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+#panel1 {
+	padding: 50px;
+    display: none;
+}
+
+#caption1{
+		text-align: center;
+		font-size: 40px;
+		font-color: purple;
+	}
+
+#caption2{
+		text-align: center;
+		font-size: 40px;
+		font-color: green;
+}
+#caption3{
+		text-align: center;
+		font-size: 40px;
+		font-color: red;
+	}
+.well1 {
+	background-color: #99c2ff;
+	}
+
+.well03{
+	background-color: #99ff66;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+.well04 {
+	background-color: #99ff99;
+}
