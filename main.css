@@ -1,11 +1,19 @@
-#pitch {
 
-	background-image: url('images/Style.jpg');
-	padding:140px 0px;
-	background-size: cover;
+#body {
+	background-clip: content-box;
+	border-style: solid;
+
+	
 }
+ .cw{
+ 	border-collapse: separate;
+    border-spacing: 2px 10px;
+ }
 
-
+h3.theme {
+	font-size: 20px;
+	font-family: Arial;
+}
 .container-header {
 	background-color:  #4040a1;
 	padding-right: 0%;
@@ -13,6 +21,10 @@
 	color: black;
 }
 
+div.button {
+	padding-top: 30px;
+
+}
 
 .navbar-nav {
 	min-height: 10px !important
@@ -20,6 +32,7 @@
 
 .container01{
 	padding-right: 10%;
+	
 }
 #span {
 	background-color:"red";
@@ -61,13 +74,27 @@ h4 {
 
 }
 
-#footer{
-	background-color:red;
-	font-style: Alex Brush;
-	font-color: black;
-	font-size: 30px;
-	text-align: center;
+footer{
+	background-color:#80ced6; 
+	color: white ;
+	
 }
+.money_back_icon{
+	padding-right: 20px;
+	padding-left: 50px;
+}
+
+div #footer{
+	background-color:#b7d7e8;
+	font-style: Alex Brush;
+	font-color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
 #topMenu{
 	background-color: purple;
 	font-family: Magnus Cederholm; 
@@ -121,6 +148,11 @@ h4 {
 	padding-right: 50px;
 }
 
+.live_chat{
+
+	padding-top: 5px;
+}
+
 .well03{
 	background-color: #E8E8E8;
 	padding-right: 0px;
@@ -141,9 +173,7 @@ h4 {
 	border-radius: 12px;
 	text-align: justify-all;
 }
-footer{
-	background-color:#80ced6; 
-	color:#034f84 ;
+
 }
 
 .article{
@@ -163,4 +193,26 @@ h4.pil {
 }
 #column1{
 	background-color: #bdcebe;
+}
+
+.flex-list {
+	position: relative;
+	margin: 1em;
+	overflow: hidden;
+}
+.flex-list ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: -1px;
+}
+.flex-list li {
+	flex-grow: 1;
+	flex-basis: auto;
+	margin: 0em 0;
+	padding: 0 1em;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	background-color: #fff;
 }
